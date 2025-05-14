@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Portafolio Web Personal</title>
+    <a href="#fin_page"><strong>Ir al final de la página</strong></a>
+    <a id="inicio_page"></a>
+    <h1>Bruno Josue Guzman Quincha</h1>
+    <p><strong>Desarrollo de mi portafolio web</strong></p>
+    <h2>Este soy yo</h2>
+    <img src="foto.jpg" alt="foto personal">
+</head>
+<body>
+    <nav>
+     <a href="#sobremi">Sobre mí</a>
+    <br>
+    <a href="#interesesylogros">intereses y logros</a>
+    <br>
+    <a href="#tabladehabilidades">Mis habilidades</a>
+    <br>
+    <a href="#formulariodecontacto">Formulario de contacto</a>
+    <br>
+    <a href="#presentacionpersonal">Presentacion personal</a>
+    </nav>
+    <a id="sobremi"></a>
+    <h3><mark>1. Sobre mí</mark></h3>
+  <p>
+    Hola, me llamo <strong>Bruno Guzman</strong>, soy estudiante de la carrera de sistemas de informacion  y actualmente curso el tercer semestre.
+    Siempre llevo mi <mark>mochila azul</mark> con mi cuaderno para mis apuntes, <em>y me gusta aprender mucho.</em>
+    </p>
+     <a id="interesesylogros"></a>
+    <h4><mark>2. intereses y logros</mark></h4>
+     <ol>
+  <li>Interesado en seguir aprendiendo programacion</li>
+  <li>Aprendiendo desarrollo web con HTML, CSS y JavaScript</li>
+  <li>contar con mi licencia profesional tipo E</li>
+  <li>interesado en aprender nuevos lenguajes de programacion</li>
+  <li>Siempre curioso por aprender cosas nuevas</li>
+</ol>
+<a id="tabladehabilidades"></a>
+<h5><mark>3. tabla de habilidades</mark></h5>
+<table border="1">
+      <thead>
+        <tr>
+          <th>Lograr un buen desarrollo en mi aprendisaje</th>
+          <th>Tener iniciativa propia</th>
+          <th>Demostrar interes en mis clases</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr><td>Me ayuda a poder desarrollar mis actividades con mayor facilidad.</td><td colspan="1" rowspan="2">Identifico los problemas.</td><td colspan="1" rowspan="2">Logro dar mis opiniones y resolver mis dudas.</td></tr>
+        <tr><td rowspan="3">Tener una mejor presentacion en mis trabajos.</td></tr>
+        <tr><td>Aprendo nuevas habilidades.</td>
+        <td>Poder responder a las preguntas de mi profesor.</td>
+      </tbody>
+      </table>
+      <!-- Multimedia: audio de presentación -->
+  <a id="presentacionpersonal">
+    <h2>Presentación Personal</h2>
+    <p>Escucha una breve presentación sobre mí:</p>
+    <audio controls>
+      <source src="mipresentacion.mp3" type="audio/mpeg">
+      Tu navegador no soporta el audio.
+    </audio>
+  </a>
+       <a id="formulariodecontacto"></a>
+    <h3><mark>4. Formulario de contacto</mark></h3>
+    <form action="#" method="post">
+      <!-- Nombre -->
+      <label for="nombre"><strong>Nombre:</strong></label><br>
+      <input type="text" id="nombre" name="nombre" required><br><br>
+      <!-- Correo -->
+      <label for="correo"><strong>Correo electrónico:</strong></label><br>
+      <input type="email" id="correo" name="correo" required><br><br>
+      <!-- Edad -->
+      <label for="edad"><strong>Edad:</strong></label><br>
+      <input type="number" id="edad" name="edad" min="0" max="120" required><br><br>
+      <!-- Género -->
+      <label><strong>Género:</strong></label><br>
+      <input type="radio" id="masculino" name="genero" value="Masculino" required>
+      <label for="masculino">Masculino</label><br>
+      <input type="radio" id="femenino" name="genero" value="Femenino">
+      <label for="femenino">Femenino</label><br>
+      <!-- Intereses -->
+      <label for="intereses">Intereses:</label><br>
+      <select id="intereses" name="intereses" required>
+        <option value="">--Selecciona uno--</option>
+        <option value="Tecnología">Tecnología</option>
+        <option value="Deportes">Ciencias</option>
+        <option value="Arte">Idiomas</option>
+        <option value="Lectura">Historia</option>
+      </select><br><br>
+
+      <!-- Comentarios -->
+      <label for="comentarios"><strong>Comentarios:</strong></label><br>
+      <textarea id="comentarios" name="comentarios" rows="4" cols="40" required></textarea><br><br>
+
+      <!-- Botón de envío -->
+      <input type="submit" value="Enviar">
+    </form>
+    <footer>
+  <hr>
+  <p>&copy; <span id="anio"></span> Bruno Josue Guzman Quincha. Todos los derechos reservados.</p>
+  <p>Puedes encontrarme en:</p>
+  <ul>
+    <li><a href="https://facebook.com" target="_blank">Facebook</a></li>
+    <li><a href="https://youtube.com" target="_blank">Youtube</a></li>
+  </ul>
+  <p>Como: <strong>Bruno Guzman.</strong></p>
+</footer>
+</body>
+<a id="fin_page"></a>
+<a href="#inicio_page">Ir Inicio página</a>
+</html>
